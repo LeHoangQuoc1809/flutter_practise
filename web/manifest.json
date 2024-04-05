@@ -1,6 +1,6 @@
 {
-    "name": "template_dummy",
-    "short_name": "template_dummy",
+    "name": "flutter_practise",
+    "short_name": "flutter_practise",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

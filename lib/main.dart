@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practise/src/pages/introduction_page.dart';
 
 void main() {
   runApp(
@@ -17,15 +18,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Hello World'),
-          ],
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: IntroductionPage(),
     );
   }
 }

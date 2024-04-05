@@ -1,4 +1,4 @@
-# template_dummy
+# flutter_practise
 
 A new Flutter project.
 
